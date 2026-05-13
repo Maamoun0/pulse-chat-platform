@@ -100,6 +100,18 @@ The application design leverages bespoke curated color standards tailored to evo
 
 ---
 
+## 🖥️ Pulse Control Center (Admin Dashboard Telemetry)
+
+As an enterprise-grade solution, the platform incorporates a dedicated web portal serving as a high-fidelity control station. Built with premium layout principles, multi-stop teal gradient graphics, and real presence metric streaming, the live dashboard facilitates continuous monitoring of node infrastructure:
+
+### **Secure Portal Authentication Interface**
+![Admin Authentication Portal](screenshots/admin_login.png)
+
+### **Fully Populated Telemetry Control Station**
+![Admin Telemetry Hub Full View](screenshots/admin_dashboard_full.png)
+
+---
+
 ## 📂 Repository Showcase Structure
 
 ```text
@@ -112,7 +124,9 @@ pulse-chat-platform/
 │   ├── app_preferences_dark.jpg    # Deep AMOLED Preferences
 │   ├── app_preferences_light.jpg   # High-Contrast Ambient View
 │   ├── app_security.jpg            # Privacy Cryptography Guard
-│   └── admin_dashboard.png         # Telemetry Dashboard Website Capture
+│   ├── admin_login.png             # Authentic Admin Website Portal Sign-In UI
+│   ├── admin_dashboard.png         # Telemetry Dashboard Header View Excerpt
+│   └── admin_dashboard_full.png    # Telemetry Dashboard Website Top-to-Bottom Capture
 └── showcase-code-samples/          # Curated Excerpts Demonstrating Premium Code Quality
     ├── login_screen.dart           # Flutter Frontend UI Showcase
     ├── Dashboard.tsx               # React Admin Telemetry Control UI
