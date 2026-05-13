@@ -12,7 +12,7 @@
 
 ---
 
-<img src="screenshots/login_page.png" width="260" alt="Login Screen" /> &nbsp;&nbsp;&nbsp; <img src="screenshots/chat_list.png" width="260" alt="Chat List" /> &nbsp;&nbsp;&nbsp; <img src="screenshots/admin_dashboard.png" width="260" alt="Admin Dashboard" />
+<img src="screenshots/app_login.jpg" width="240" alt="Login Screen" /> &nbsp;&nbsp; <img src="screenshots/app_chats_list.jpg" width="240" alt="Chat Threads" /> &nbsp;&nbsp; <img src="screenshots/admin_dashboard.png" width="360" alt="Admin Dashboard" />
 
 </div>
 
@@ -23,7 +23,29 @@
 **Pulse Chat** represents a masterfully engineered communication suite tailored for uncompromised security, cross-device session synchronization, and instantaneous presence tracking. Utilizing an advanced, decoupled micro-architecture, the platform ensures that strict multitenant identity borders isolate user conversations natively at the persistence layer.
 
 > [!IMPORTANT]
-> **Live Showcase Included:** This public showcase repository provides the official executable **Android package (`.apk`)** alongside high-fidelity UI screen captures and curated interface implementation samples.
+> **Live Showcase Included:** This public showcase repository provides the official executable **Android package (`.apk`)** attached directly inside the GitHub Releases section alongside official real system screen captures.
+
+---
+
+## 📸 High-Fidelity UI Portfolio Showcase
+
+Explore the exquisite user experience verified on real mobile target devices:
+
+````carousel
+![Glassmorphism Authentication Portal](screenshots/app_login.jpg)
+<!-- slide -->
+![Secure User Identity Registration](screenshots/app_register.jpg)
+<!-- slide -->
+![Multitenant Active Chat Pipeline](screenshots/app_chats_list.jpg)
+<!-- slide -->
+![Visual Theme Engine - AMOLED Dark Mode](screenshots/app_preferences_dark.jpg)
+<!-- slide -->
+![Visual Theme Engine - Pristine Light Mode](screenshots/app_preferences_light.jpg)
+<!-- slide -->
+![Privacy & Crypto Guard Configuration](screenshots/app_security.jpg)
+<!-- slide -->
+![Live Telemetry Control Hub](screenshots/admin_dashboard.png)
+````
 
 ---
 
@@ -31,8 +53,7 @@
 
 Experience the premium aesthetics and blazingly fast Socket engine directly on your mobile device:
 
-1. **Download the Package:** Get the official Android APK directly from this repository:
-   👉 **[`pulse_chat_release.apk`](./pulse_chat_release.apk)**
+1. **Download the Package:** Get the official Android APK directly from the **Releases** page of this repository.
 2. **Install:** Authorize installation from external sources if prompted by Android Security.
 3. **Register/Login:** Create a free standard identity node using a unique handle and connect instantly to the global real-time cloud server.
 
@@ -76,32 +97,22 @@ The application design leverages bespoke curated color standards tailored to evo
 * **Frosted Glassmorphism:** Ambient visual blurring (`BackdropFilter`) layered over deep space surfaces with multi-stop micro-gradients.
 * **Curated Premium Palette:** Tailored primary variants centered around deep corporate Teal (`#00696E`), neon pulse accents (`#75F5FD`), and pristine dark environments (`#0A192F`).
 * **Visual Engine Preferences:** Instantly reactive UI mode bindings switching seamlessly between ambient high-contrast Light themes and optimized AMOLED Dark backdrops.
-* **Micro-Animations:** Fluid state scaling, spatial route slides, context action springs, and reactive input targets.
-
----
-
-## 🛡️ Enterprise Hardening & Security Features
-
-> [!TIP]
-> **Robust Data Isolation:** The application enforces structural type validation (`Types.ObjectId`) directly within Mongoose pipeline arrays to prevent cross-account payload contamination.
-
-1. **End-to-End Cryptography (Privacy Guard):** Client-side key negotiation encrypting plaintext before packet leaving host radios.
-2. **Offline-First Synchronization Engine:** Background SQLite caching storing messages idempotently. Phantom/stale cache synchronization cleans obsolete records instantly upon peer list updates.
-3. **Session Authority Constraints:** Single-device concurrent active node sessions protecting users from hijacked secondary socket links.
-4. **Active User Telemetry & Governance:** The **Pulse Control Center** dashboard delivers live metric tracking with instantaneous node restriction bounds and user cleanup access authority.
 
 ---
 
 ## 📂 Repository Showcase Structure
 
 ```text
-pulse-chat-public-release/
+pulse-chat-platform/
 ├── README.md                       # Comprehensive Platform Overview
-├── pulse_chat_release.apk          # Installable Debug/Release Build for Android
-├── screenshots/                    # High-Fidelity Capture Imagery
-│   ├── login_page.png              # Glassmorphism Authentication UI
-│   ├── chat_list.png               # Multitenant Message Thread Route
-│   └── admin_dashboard.png         # Administrative Telemetry Dashboard
+├── screenshots/                    # Real Application UI Imagery
+│   ├── app_login.jpg               # Glassmorphism Authentication UI
+│   ├── app_register.jpg            # Account Provisioning Setup
+│   ├── app_chats_list.jpg          # Active Conversation Threads
+│   ├── app_preferences_dark.jpg    # Deep AMOLED Preferences
+│   ├── app_preferences_light.jpg   # High-Contrast Ambient View
+│   ├── app_security.jpg            # Privacy Cryptography Guard
+│   └── admin_dashboard.png         # Telemetry Dashboard Website Capture
 └── showcase-code-samples/          # Curated Excerpts Demonstrating Premium Code Quality
     ├── login_screen.dart           # Flutter Frontend UI Showcase
     ├── Dashboard.tsx               # React Admin Telemetry Control UI
@@ -123,8 +134,3 @@ To preserve intellectual property and secure production authentication configura
 ## 📜 Legal & Licensing
 
 Created as an advanced production portfolio piece demonstrating clean enterprise development standards. All displayed logo graphics, interface palettes, and internal code assets are fully protected intellectual property.
-
-<div align="center">
-  <br>
-  <b>Built with passion for flawless visual aesthetics and uncompromised architectural security.</b>
-</div>
