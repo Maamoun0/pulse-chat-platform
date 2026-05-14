@@ -140,11 +140,17 @@ pulse-chat-platform/
 To preserve intellectual property and secure production authentication configurations, this directory showcases selected non-sensitive frontend UI blueprints and optimized database transaction snippets demonstrating robust software patterns:
 
 * **Frontend UI Clean Code:** View the exquisite Flutter UI structure implementing backdrop blur layers and custom text formatting inside **`showcase-code-samples/login_screen.dart`**.
+
+* 
 * **React Dashboard Hooks:** Explore optimized socket connections mapping presence graphs via Recharts inside **`showcase-code-samples/Dashboard.tsx`**.
 * **Thread Normalization:** See the intelligent array deduplication and active timestamp sorting algorithm powering multitenant access inside **`showcase-code-samples/chats.service.ts`**.
 
 ---
 
 ## 📜 Legal & Licensing
+
+
+---
+Created by Ahmed Maamoun
 
 Created as an advanced production portfolio piece demonstrating clean enterprise development standards. All displayed logo graphics, interface palettes, and internal code assets are fully protected intellectual property.
