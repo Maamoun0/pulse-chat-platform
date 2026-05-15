@@ -1,5 +1,9 @@
 # Pulse Chat Platform
 
+---
+Created by Ahmed Maamoun
+
+
 Enterprise-Grade Real-Time Secure Messaging Infrastructure
 
 A state-of-the-art secure chat ecosystem featuring end-to-end encrypted message pipelines, an elegant Glassmorphism mobile interface, persistent offline-first synchronization, and a robust administrative telemetry hub.
